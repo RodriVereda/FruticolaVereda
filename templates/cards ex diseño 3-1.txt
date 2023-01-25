@@ -1,0 +1,57 @@
+<div style="margin-bottom: 20px;">
+  <div class="card-deck" style="margin-left: 40px; margin-right: 40px;">
+      <div class="card" id="hovered1" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+        <a href="frigorifico.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Frio\frio miniatura.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <a href="frigorifico.html">
+            <h5 class="card-title">Alquiler de cámara frigorífica</h5>
+          </a>
+          <p class="card-text"> Contamos con 2 cámaras frigoríficas de 225 m2 cada una y un túnel estilo californiano de pre-enfriamiento de 50 m2; todo enfriado por amoníaco y agua. con capacidad para mantener productos que requieran una temperatura de entre 1°C y 5°C
+          </p>
+        </div>
+        <div class="card-footer">
+        <a href="frigorifico.html"><small class="text">Más info</small></a>
+        </div>
+    </div>
+    <div class="card"  id="hovered2" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+      <a href="espacio.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Produccion\espacio miniatura.jpg" style="height: 220px" alt="Card image cap"></a>
+        <div class="card-body">
+          <a href="espacio.html">
+            <h5 class="card-title">Alquiler de espacio</h5>
+          </a>
+          <p class="card-text"> ¿No sabe donde guardar sus bienes? En Fruticola Vereda contamos con 1.850 m2 para guardar todo tipo de productos o bienes bajo techo.</p>
+        </div>
+        <div class="card-footer">
+          <a href="espacio.html"><small class="text">Más info</small></a>
+        </div>
+    </div>
+    <div class="card"  id="hovered3" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+      <a href="produccion.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Produccion\miniatura.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <a href="produccion.html">
+            <h5 class="card-title">Procesado y embalado de fruta fresca</h5>
+          </a>
+          <p class="card-text">Como dijímos, los productos frescos son nuestro fuerte; por eso, en Fruticola Vereda nos aseguramos de que todo el proceso de selección y tamañado se realice bajo altos estándares de calidad. </p>
+        </div>
+        <div class="card-footer">
+          <a href="produccion.html"><small class="text">Más info</small></a>
+        </div>
+    </div> 
+  </div>
+</div>
+<div style="margin-bottom: 20px; width: 505px;">   
+  <div class="card-deck" style="margin-left: 40px; margin-right: 40px;height: 460px; ">
+    <div class="card"  id="hovered4" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+      <a href="salsa.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\salsa\card.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <a href="salsa.html">
+            <h5 class="card-title">Salsa de tomate</h5>
+          </a>
+          <p class="card-text"> No hay nada como lo casero. por eso, nos ocupamos de producir una salsa de tomate estilo artesanal siguiendo la recéta de la abuela.</p>
+        </div>
+        <div class="card-footer">
+          <a href="salsa.html"><small class="text">Más info</small></a>
+        </div>
+    </div>
+  </div>
+</div>

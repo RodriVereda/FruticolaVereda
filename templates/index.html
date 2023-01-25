@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruticola Vereda S.A.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\templates\index.css">
+    <link rel="stylesheet" href="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\social\icomoon\style.css">
+    <style>
+        body { background-image: url(https://thumbs.dreamstime.com/z/abstract-background-9407215.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+      }
+           
+      nav { background-image: linear-gradient(to right, #dedfde, #efefef);
+
+      }
+      h3  { text-align: left; font-style: italic; font-family: initial; margin-left: 55px; font-weight: 800; text-decoration-line: underline; text-decoration-color: darkorange;
+
+      }
+      #hovered1 {
+                transition: background-color .5s;
+
+      }
+      #hovered1:hover {
+        background-color: #15c3f886;
+      }
+      #hovered2 { transition: .5s;
+
+      }
+      #hovered2:hover {
+        background-color: #fcb901c5;
+      }
+      #hovered3 { transition: .5s;
+
+      }
+      #hovered3:hover {
+        background-color: #18ec18bd;
+      }
+      #hovered4 { transition: .5s;
+      }
+      #hovered4:hover {
+        background-color: #f73d3dd3;
+      }  
+      .social ul{
+        display: flex;
+        flex-wrap: nowrap;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly
+      }
+      
+      .social ul li .icon-facebook2{background: #395591;}
+      .social ul li .icon-linkedin2{background: #3c75f1;}
+      .social ul li .icon-instagram{background: #fc3862;}
+      .social ul li .icon-whatsapp{background: #0cda16;}
+      .social ul li .icon-envelop{background: #adadad;}
+      
+      .social ul li a:hover{
+        padding: 10px 30px;
+      }
+      .social ul li a{
+        display: flex;
+        flex-wrap: nowrap;
+        color: #fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+      }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 10px;">
+        <a class="navbar-brand" href="index.html"><img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\logoo.png" alt="Logo" style="width: 250px; transform: rotate(0.6deg)"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="hovered2" href="index.html">Home <span class="sr-only" style="color: black;"></span></a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-link" id="hovered3" style="color: black;" data-toggle="modal" data-target="#exampleModal">
+                        Contactenos
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content" style="border-bottom: none">
+                                <div class="modal-header" style="color: darkorange; background-color: chartreuse; border-color: darkorange; border-bottom: solid">
+                                    <h5 class="modal-title" id="exampleModalLabel">Contactos</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p style="font-family: cursive; font-size: small">Horarios de atención: <br> Lunes a viernes: de 08:00 a 12:00 y de 15:30 a 19:30 hs <br>
+                                        Sábados: de 09:00 a 12:30 hs</p>
+                                </div>
+                                <div>
+                                    <p class="card-text">
+                                        <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\whasapp.jpg" style="width: 80px;font-family: cursive; font-size: larger;"> <a data-toggle="collapse" href="#wapCollapse" role="button" aria-expanded="false" aria-controls="collapseExample"> WhatsApp </a> <br>
+                                        <div class="collapse" id="wapCollapse">
+                                            <div class="card card-body">
+                                                2634-342099 (Juan Jose Vereda) <br>
+                                                2634-514495 (Silvana Silvestri)
+                                            </div>
+                                        </div>
+                                        <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\mail.png" style="width: 45px;height: 45px;font-family: cursive;font-size: larger;margin-left: 20px;margin-right: 15px;"> <a data-toggle="collapse" href="#mailCollapse" role="button" aria-expanded="false" aria-controls="collapseExample"> Mail </a>
+                                        <div class="collapse" id="mailCollapse">
+                                            <div class="card card-body">
+                                                <p> <a href="mailto:info@fruticolavereda.com.ar">info@fruticolavereda.com.ar</a> <br>
+                                                    <a href="mailto:juanjovereda@yahoo.com">juanjovereda@yahoo.com</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" style="color: darkorange; background-color: chartreuse; border-color: chartreuse; font-weight: 600;">Volver</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" id="hovered2">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                        Quiénes somos?
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" id="hovered3" href="services.html">Nuestros Servicios</a>
+                        <a class="dropdown-item" id="hovered3" href="history.html">Nuestra historia</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border-color: #28a745">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <div style="text-align: center; margin-bottom: 10px;">
+        <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\logoo.png" alt="logo" style="transform: rotate(0.6deg); width: 450px;">
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 75%; margin:auto">
+        <div class="carousel-inner" style="width: 1000px; height: 400px;">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\galpon esquinado.jpeg" alt="First slide [800x400] ">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Produccion\frente.jpg" alt="Second slide [800x400]">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\viejos.JPG" alt="Second slide [800x400]">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\badassact.PNG" alt="Third slide [800x400]">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div id="unpoco" style="border-left-style: solid; border-left-color: orange; border-left-width: thick; background-color: #8efd21a3">
+        <h3>Un poco sobre nosotros... </h3>
+        <p style="font-size: xx-large; text-align: center; margin-left: 25%; font-family: system-ui; font-size: large; font-style: oblique; font-weight: 500; "> Somos una empresa familiar con más de 40 años en el rubro. Priorizamos el cuidado y el buen trato del producto desde su cosecha hasta la venta, manteniendo su composición lo más natural posible durante el proceso de selección y embalado. <br> Es por eso que somos una de las empresas con mejor imagen en el este mendocino. No solo por la calidad del producto; sino también por la atención brindada.</p>
+    </div>
+    <br>
+    <h3 style="color: darkorange; text-transform: uppercase; font-family: system-ui; text-align: -webkit-center;">¿Dónde encontrarnos?</h3><br>
+    <div style="display: flex; align-items: center; justify-content: space-evenly;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1670.0565386631304!2d-68.44307022813474!3d-33.15865810843623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdf2e9f79eaa3e06!2zMzPCsDA5JzMxLjIiUyA2OMKwMjYnMzEuNyJX!5e0!3m2!1ses-419!2sar!4v1645624739876!5m2!1ses-419!2sar" style="border:0; width: 45%; height: 366px; border: solid; border-color: chartreuse; border-style: double; border-width: thick;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="card" style="border-bottom: none; max-width: 30rem; -webkit-text-stroke: thin;font-weight: bold; border: solid; border-color: chartreuse; border-style: double; border-width: thick">
+            <div class="card-header" style="font-family: cursive; font-size: larger;">¿Tenés alguna duda?</div>
+            <div class="card-body text-dark">
+                <h5 class="card-title" style="font-family: cursive; font-size: larger;">Ponete en contacto con nosotros!</h5> <br>
+                <p style="font-family: cursive; font-size: small">Horarios de atención: <br> Lunes a viernes: de 08:00 a 12:00 y de 15:30 a 19:30 hs <br>
+                    Sabados: de 09:00 a 12:30 hs</p>
+            </div>
+            <div>
+                <p class="card-text">
+                    <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\whasapp.jpg" style="width: 80px;font-family: cursive; font-size: larger;"> <a data-toggle="collapse" href="#wappCollapse" role="button" aria-expanded="false" aria-controls="collapseExample"> WhatsApp </a> <br>
+                    <div class="collapse" id="wappCollapse">
+                        <div class="card card-body">
+                            2634-342099 (Juan José Vereda) <br>
+                            2634-514495 (Silvana Silvestri)
+                        </div>
+                    </div>
+                    <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\mail.png" style="width: 45px;height: 45px;font-family: cursive;font-size: larger;margin-left: 20px;margin-right: 15px;"> <a data-toggle="collapse" href="#emailCollapse" role="button" aria-expanded="false" aria-controls="collapseExample"> Mail </a>
+                    <div class="collapse" id="emailCollapse">
+                        <div class="card card-body">
+                            <a href="mailto:info@fruticolavereda.com.ar">info@fruticolavereda.com.ar</a>
+                            <a href="mailto:juanjovereda@yahoo.com">juanjovereda@yahoo.com</a>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h3 style="color: darkorange; text-transform: uppercase; font-family: system-ui; text-align: -webkit-center;">¿Qué ofrecemos?</h3>
+    </div>
+    <br>
+    <div style="margin:auto; text-align: -webkit-center; width: 80%;">
+        <div class="card-deck" style="margin-left: 40px; margin-right: 40px;">
+            <div class="card" id="hovered1" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+                <a href="frigorifico.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Frio\frio miniatura.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <a href="frigorifico.html">
+                        <h5 class="card-title">Alquiler de cámara frigorífica</h5>
+                    </a>
+                    <p class="card-text"> Contamos con 2 cámaras frigoríficas de 225 m2 cada una y un túnel estilo californiano de pre-enfriamiento de 50 m2; todo enfriado por amoníaco y agua. con capacidad para mantener productos que requieran una temperatura de entre 1°C y 5°C
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="frigorifico.html"><small class="text">Más info</small></a>
+                </div>
+            </div>
+            <div class="card" id="hovered2" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+                <a href="espacio.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Produccion\espacio miniatura.jpg" style="height: 220px" alt="Card image cap"></a>
+                <div class="card-body">
+                    <a href="espacio.html">
+                        <h5 class="card-title">Alquiler de espacio</h5>
+                    </a>
+                    <p class="card-text"> ¿No sabe dónde guardar sus bienes? En Frutícola Vereda contamos con 1.850 m2 para guardar todo tipo de productos o bienes bajo techo.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="espacio.html"><small class="text">Más info</small></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="margin:auto; text-align: -webkit-center; width: 80%;">
+        <div class="card-deck" style="margin-left: 40px; margin-right: 40px;">
+            <div class="card" id="hovered3" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+                <a href="produccion.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\Produccion\miniatura.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <a href="produccion.html">
+                        <h5 class="card-title">Procesado y embalado de fruta fresca</h5>
+                    </a>
+                    <p class="card-text">Como dijimos, los productos frescos son nuestro fuerte; por eso, en Frutícola Vereda nos aseguramos de que todo el proceso de selección y tamañado se realice bajo altos estándares de calidad. </p>
+                </div>
+                <div class="card-footer">
+                    <a href="produccion.html"><small class="text">Más info</small></a>
+                </div>
+            </div>
+            <div class="card" id="hovered4" style="border: solid; border-color: #fb9f15e8; border-style: double; border-width: thick;">
+                <a href="salsa.html"><img class="card-img-top" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\salsa\card.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                    <a href="salsa.html">
+                        <h5 class="card-title">Salsa de tomate</h5>
+                    </a>
+                    <p class="card-text"> No hay nada como lo casero. por eso, nos ocupamos de producir una salsa de tomate estilo artesanal siguiendo la receta de la abuela.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="salsa.html"><small class="text">Más info</small></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="jumbotron jumbotron-fluid" style="padding: 0.5rem 1rem; margin-bottom: auto; background: #afb3b34a">
+        <div class="container">
+            <p class="lead" style="font-size: smaller; text-align: justify; text-align-last: center; font-weight: 500;">
+                © Frutícola Vereda S.A. 2023 - All rights reserved - Web development by Rodrigo Vereda
+            </p>
+            <div class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/rodri.vereda" class="icon-facebook2"></a></li>
+                    <li><a href="https://www.linkedin.com/in/rodrigo-vereda-72a024227" class="icon-linkedin2"></a></li>
+                    <li><a href="https://www.instagram.com/rodriivereda" class="icon-instagram"></a></li>
+                    <li><a href="https://wa.me/+5492634213506" class="icon-whatsapp"></a></li>
+                    <li><a href="mailto:roodrii_v@yahoo.com" class="icon-envelop"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

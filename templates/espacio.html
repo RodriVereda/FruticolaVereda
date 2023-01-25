@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruticola Vereda - Espacio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\social\icomoon\style.css">
+    <style>
+      body { background-image: url(https://img.freepik.com/free-vector/modern-flowing-orange-wave-banner-background_1035-19860.jpg?w=2000);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+
+      }
+           
+      nav { background-image: linear-gradient(to right, #dedfde, #efefef);
+
+      }
+      h5 {text-align: initial; font-style: oblique; font-family: auto; text-decoration-thickness: from-font; text-decoration-line: underline; font-size: xx-large; text-shadow: 0 0 black;;
+      }
+      #hovered1 {
+                transition: background-color .5s;
+
+      }
+      #hovered1:hover {
+        background-color: #15c3f886;
+      }
+      #hovered2 { transition: .5s;
+
+      }
+      #hovered2:hover {
+        background-color: #fcb901c5;
+      }
+      #hovered3 { transition: .5s;
+
+      }
+      #hovered3:hover {
+        background-color: #18ec18bd;
+      }
+   
+      .social ul{
+        display: flex;
+        flex-wrap: nowrap;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-evenly
+      }
+      
+      .social ul li .icon-facebook2{background: #395591;}
+      .social ul li .icon-linkedin2{background: #3c75f1;}
+      .social ul li .icon-instagram{background: #fc3862;}
+      .social ul li .icon-whatsapp{background: #0cda16;}
+      .social ul li .icon-envelop{background: #adadad;}
+      
+      .social ul li a:hover{
+        padding: 10px 30px;
+      }
+      .social ul li a{
+        display: flex;
+        flex-wrap: nowrap;
+        color: #fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+      }
+      
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-bottom: 50px;">
+    <a class="navbar-brand" href="index.html"><img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\logoo.png" alt="Logo" style="width: 250px; transform: rotate(1deg)"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" id="hovered2" href="index.html">Home <span class="sr-only"></span></a>
+    </li>
+    <li class="nav-item">
+      <button type="button" id="hovered3" class="btn btn-link" style="color: black;" data-toggle="modal" data-target="#exampleModal">
+        Contactenos
+      </button>
+    
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="    border-bottom: none">
+            <div class="modal-header" style="color: darkorange; background-color: chartreuse; border-color: darkorange; border-bottom: solid">
+              <h4 class="modal-title" id="exampleModalLabel">Contactos</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p style="font-family: cursive; font-size: small">Horarios de atencion: <br> Lunes a viernes: de 08:00 a 12:00 y de 15:30 a 19:30 hs <br>
+                Sabados: de 09:00 a 12:30 hs</p>
+            </div>
+                <div>
+                  <p class="card-text">
+                    <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\whasapp.jpg" style="width: 80px;font-family: cursive; font-size: larger;" > <a data-toggle="collapse"  href="#wapCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" > WhatsApp </a> <br>
+                      <div class="collapse" id="wapCollapse">
+                        <div class="card card-body">
+                          2634-342099  (Juan Jose Vereda) <br>
+                          2634-514495  (Silvana Silvestri)
+                        </div>
+                      </div>
+                    <img src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\index\mail.png" style="width: 45px;height: 45px;font-family: cursive;font-size: larger;margin-left: 20px;margin-right: 15px;"> <a data-toggle="collapse"  href="#mailCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" > Mail </a>
+                      <div class="collapse" id="mailCollapse">
+                        <div class="card card-body">
+                          <p> <a href="mailto:info@fruticolavereda.com.ar">info@fruticolavereda.com.ar</a> <br>
+                           <a href="mailto:juanjovereda@yahoo.com">juanjovereda@yahoo.com</a>
+                          </p>
+                        </div>
+                      </div>                    
+                  </p>
+              </div>
+          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal" style="color: darkorange; background-color: chartreuse; border-color: chartreuse; font-weight: 600;">Volver</button>              
+            </div>
+        </div>
+      </div>
+    
+    </li>
+    <li class="nav-item dropdown" id="hovered2">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+        Quienes somos?
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" id="hovered3" href="services.html">Nuestros Servicios</a>
+        <a class="dropdown-item" id="hovered3" href="history.html">Nuestra historia</a>
+      </div>
+    </li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border-color: #28a745">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+  </form>
+</div>
+</nav> 
+<br>
+    
+<h2 style="text-align: center; font-style: oblique; font-family: auto; font-size: -webkit-xxx-large; text-shadow: 0 0 black; text-decoration: overline; text-decoration-thickness: from-font; text-decoration-color: darkorange;">Alquiler de espacio</h2>
+    
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 1000px; height: 400px; margin:auto">
+    <div class="carousel-inner" style="width: 1000px; height: 400px;">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\espacio\Espacio porton.jpg" alt="First slide [800x400] ">
+        </div>
+        <div class="carousel-item">
+             <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\espacio\IMG_20230106_071029418.jpg" alt="Second slide [800x400]">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="C:\Users\MI EQUIPO\Desktop\Programacion\FV\arhivo\Statics\espacio\galpon adentro.jpeg" alt="espacio cerrado [800x400]">
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div>
+  <p style="margin-top: 40px; text-align: center; margin-left: 80px; margin-right: 80px; font-family: system-ui; font-size: large; font-style: oblique; font-weight: 500;white-space: pre-line;">
+        En <a href="index.html" style="color: forestgreen">Frutícola Vereda S. A. </a> contamos con una superficie cubierta de 1.850 m2 para almacenar sus productos o bienes de la forma más segura; además, toda la superficie está cubierta por cámaras de vigilancia y un sistema de alarma monitoreada, funcionando todos los días, las 24 horas. <br>
+        Ofrecemos también opciones que se acomodan a su necesidad; usted puede optar por la opción: <br> 
+  <strong> Espacio regular</strong>, el cual contiene una superficie cubierta de 1.000 m2, de fácil acceso, ideal para guardar los productos de forma transitoria y facilitar su despacho directamente desde nuestras instalaciones. <br>
+  <strong> Espacio cerrado</strong>, con una superficie cubierta total de 850 m2 cerrada bajo llave, ideal para almacenar productos por largos períodos de tiempo sin tener que preocuparse por nada. 
+  </p>
+
+</div>
+<div>
+  <a button  href="services.html" type="button" class="btn btn-primary" style="margin: 20px; color: black; background-color: chartreuse; border-color: chartreuse; font-weight: 600;">Volver</button>  </a>            
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="padding: 0.5rem 1rem; margin-bottom: auto; background: #afb3b34a">
+  <div class="container">
+    <p class="lead" style="font-size: smaller; text-align: justify; text-align-last: center; font-weight: 500;">
+       © Frutícola Vereda S.A. 2023 - All rights reserved - Web development by Rodrigo Vereda 
+    </p>
+       <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/rodri.vereda" class="icon-facebook2"></a></li> 
+            <li><a href="https://www.linkedin.com/in/rodrigo-vereda-72a024227" class="icon-linkedin2"></a></li>
+            <li><a href="https://www.instagram.com/rodrii_vereda?igshid=YmMyMTA2M2Y=" class="icon-instagram"></a></li>
+            <li><a href="https://wa.me/+5492634213506" class="icon-whatsapp"></a></li>
+            <li><a href="mailto:roodrii_v@yahoo.com" class="icon-envelop"></a></li>
+        </ul>
+
+       </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
